@@ -298,7 +298,7 @@ address {
     justify-content: center;
 }
 
-.our-portfolio-item {
+.our-portfolio-li {
     width: calc((100% - 48px) / 3);
 }
 

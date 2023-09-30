@@ -168,6 +168,7 @@ address {
     margin: 0 auto;
     margin-top: 48px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    min-width: 169px;
 }
 
 .hero .hero-btn:hover,
@@ -217,6 +218,10 @@ address {
     padding-bottom: 120px;
 }
 
+.our-team-container {
+    padding: 32px 0;
+}
+
 .our-team-title {
     color: #2E2F42;
     text-align: center;
@@ -264,9 +269,9 @@ address {
     padding-bottom: 120px;
 }
 
-.our-portfolio-container {}
-
-.our-portfolio-item {}
+.our-portfolio-container {
+    padding: 32px 16px;
+}
 
 .our-portfolio-title {
     color: #2E2F42;
@@ -286,12 +291,7 @@ address {
     justify-content: center;
 }
 
-.our-portfolio-apps {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    width: calc((100% - 48px) / 3);
-}
+.our-portfolio-item {}
 
 .our-portfolio-images {
     margin-bottom: 32px;

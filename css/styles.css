@@ -276,9 +276,7 @@ address {
     padding-bottom: 120px;
 }
 
-.our-portfolio-container {
-    padding: 32px 16px;
-}
+.our-portfolio-container {}
 
 .our-portfolio-title {
     color: #2E2F42;
@@ -295,7 +293,6 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    /* justify-content: center; */
 }
 
 .our-portfolio-li {
